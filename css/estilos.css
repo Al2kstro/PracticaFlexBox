@@ -1,0 +1,44 @@
+body{
+   margin: 20px;
+}
+
+#Contenedor{
+   display: flex;
+   flex-direction: column;
+}
+
+#Productos > h1{
+   padding: 20px;
+   margin: 20px;
+   text-align: center;
+}
+
+#Ofertas > h1{
+   padding: 20px;
+   margin: 20px;
+   text-align: center;
+}
+
+#Disponible > h1{
+   padding: 20px;
+   margin: 20px;
+   text-align: center;
+}
+
+#Productos{
+   background: rgb(12, 166, 134);
+}
+
+#Ofertas{
+   background: rgb(249, 219, 65);
+}
+
+#Disponible{
+   background: rgb(246, 107, 63);
+}
+
+#Productos > Div{
+   background: white;
+   display: flex;
+   flex-direction: row;
+}
