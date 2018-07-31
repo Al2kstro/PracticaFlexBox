@@ -7,38 +7,83 @@ body{
    flex-direction: column;
 }
 
-#Productos > h1{
-   padding: 20px;
-   margin: 20px;
-   text-align: center;
-}
-
-#Ofertas > h1{
-   padding: 20px;
-   margin: 20px;
-   text-align: center;
-}
-
-#Disponible > h1{
-   padding: 20px;
-   margin: 20px;
-   text-align: center;
-}
-
 #Productos{
    background: rgb(12, 166, 134);
+}
+
+#Productos > h1{
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+   text-shadow: 0 0 3px white;
+}
+
+#Productos .CajaA{
+   display: flex;
+   flex-direction: row;
+}
+
+#Productos > .CajaA > div{
+   margin: 10px;
+   padding: 10px;
+   background: white;
+   width: 50%;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
 }
 
 #Ofertas{
    background: rgb(249, 219, 65);
 }
 
+#Ofertas > h1{
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+   text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
+
+#Ofertas > .CajaB{
+   display: flex;
+   flex-direction: row;
+}
+
+#Ofertas > .CajaB > div{
+   margin: 10px;
+   padding: 10px;
+   background: white;
+   width: 33.33%;
+   text-align: center;
+    box-shadow: 4px 8px;
+}
+
 #Disponible{
    background: rgb(246, 107, 63);
 }
 
-#Productos > Div{
-   background: white;
+#Disponible > h1{
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+}
+
+#Disponible > .CajaC{
    display: flex;
    flex-direction: row;
+}
+
+#Disponible > .CajaC > div{
+   margin: 10px;
+   padding: 10px;
+   background: white;
+   width: 25%;
+   text-align: center;
+   box-shadow: 4px 8px #D46A6A;
+}
+
+footer{
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+   border-top: 1px solid black;
 }
